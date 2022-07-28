@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:angle="110"
+                android:endColor="#003087"
+                android:startColor="#005ebc" />
+
+            <size
+                android:width="56dp"
+                android:height="56dp" />
+        </shape>
+
+    </item>
+
+
+    <item
+        android:bottom="10dp"
+        android:drawable="@drawable/ic_down_returned_black_18_dp_copy"
+        android:left="10dp"
+        android:right="10dp"
+        android:top="10dp" />
+</layer-list>

@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/background_fab_button.xml" value="0.121" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/background_gradiant.xml" value="0.12" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/border.xml" value="0.1255" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/border_button.xml" value="0.1255" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/border_radius_50dp.xml" value="0.1255" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/activity_main.xml" value="0.42531120331950206" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">UiPayPal</string>
+    <string name="trade_activity">Enviar</string>
+    <string name="person_string" >Perfil</string>
+    <string name="receive">Recibir</string>
+    <string name="today">Hoy</string>
+    <string name="nina_te_ha_enviado">Nina te ha enviado</string>
+    <string name="ver_details">VER DETALLES</string>
+    <string name="message">Mensaje</string>
+    <string name="por_la">Por la cenaqqweqwewqewq</string>
 </resources>
