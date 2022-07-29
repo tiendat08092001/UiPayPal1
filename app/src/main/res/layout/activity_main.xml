@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".main.MainActivity">
 
 
     <ScrollView
@@ -25,24 +25,25 @@
                 android:src="@drawable/user_image1"
                 app:layout_constraintHorizontal_weight="1"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/todo" />
 
             <TextView
                 android:layout_width="10dp"
                 android:layout_height="10dp"
-                app:layout_constraintStart_toEndOf="@+id/user_image"
-                app:layout_constraintTop_toTopOf="parent"
-                android:background="@drawable/border"
-                android:layout_marginTop="19dp"
                 android:layout_marginStart="-3dp"
-                android:backgroundTint="#dd0164"/>
+                android:layout_marginTop="19dp"
+                android:background="@drawable/border"
+                android:backgroundTint="#dd0164"
+                app:layout_constraintStart_toEndOf="@+id/user_image"
+                app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
                 android:id="@+id/logo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
-                android:contentDescription="TODO"
+                android:contentDescription="@string/todo"
                 android:scaleType="centerCrop"
                 android:src="@drawable/ic_logo_paypal"
                 app:layout_constraintEnd_toStartOf="@+id/btn_setting"
@@ -58,9 +59,11 @@
                 android:background="@android:color/transparent"
                 android:src="@drawable/ic_setting"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                android:contentDescription="@string/todo" />
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/card_view"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_marginStart="15dp"
@@ -83,7 +86,7 @@
                         android:layout_marginStart="30dp"
                         android:layout_marginTop="16dp"
                         android:background="@drawable/border_radius_50dp"
-                        android:contentDescription=""
+                        android:contentDescription="@string/todo"
                         android:src="@drawable/user_image1"
                         app:layout_constraintLeft_toLeftOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -94,6 +97,7 @@
                         android:layout_marginTop="23dp"
                         android:layout_marginEnd="15dp"
                         android:background="@drawable/border_button"
+                        android:fontFamily="@font/montserrat_alternates_semi_bold"
                         android:paddingStart="18dp"
                         android:paddingTop="4dp"
                         android:paddingEnd="18dp"
@@ -112,7 +116,8 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="28dp"
                         android:layout_marginTop="8dp"
-                        android:text="@string/nina_te_ha_enviado"
+                        android:fontFamily="@font/montserrat_alternates_medium"
+                        android:text="@string/nina_te_ha"
                         android:textColor="@color/white"
                         android:textSize="14sp"
                         app:layout_constraintLeft_toLeftOf="parent"
@@ -123,7 +128,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="28dp"
-                        android:text="20,00€"
+                        android:fontFamily="@font/montserrat_alternates_semi_bold"
+                        android:text="@string/_20_00"
                         android:textColor="@color/white"
                         android:textSize="28sp"
                         app:layout_constraintLeft_toLeftOf="parent"
@@ -133,16 +139,17 @@
                         android:id="@+id/textview_details"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingTop="7dp"
-                        android:paddingBottom="7dp"
-                        android:paddingStart="21dp"
-                        android:paddingEnd="21dp"
-                        android:layout_marginStart="28dp"
-                        android:textSize="12sp"
+                        android:layout_marginStart="31dp"
                         android:layout_marginTop="8dp"
                         android:background="@drawable/border"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:paddingStart="21dp"
+                        android:paddingTop="7dp"
+                        android:paddingEnd="21dp"
+                        android:paddingBottom="7dp"
                         android:text="@string/ver_details"
                         android:textColor="@color/white"
+                        android:textSize="12sp"
                         app:layout_constraintLeft_toLeftOf="parent"
                         app:layout_constraintTop_toBottomOf="@id/textview_price" />
 
@@ -151,30 +158,55 @@
                         android:id="@+id/textview2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/message"
-                        android:layout_marginTop="5dp"
-                        android:textSize="12sp"
                         android:layout_marginStart="31dp"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/montserrat_medium"
+                        android:text="@string/message"
                         android:textColor="#ffffff"
-                        app:layout_constraintTop_toBottomOf="@+id/textview_price"
-                        app:layout_constraintStart_toEndOf="@+id/textview_details"/>
+                        android:textSize="12sp"
+                        app:layout_constraintStart_toEndOf="@+id/textview_details"
+                        app:layout_constraintTop_toBottomOf="@+id/textview_price" />
 
                     <TextView
                         android:layout_width="80dp"
                         android:layout_height="wrap_content"
-                        android:text="@string/por_la"
-                        app:layout_constraintTop_toBottomOf="@id/textview2"
-                        app:layout_constraintStart_toEndOf="@id/textview_details"
                         android:layout_marginStart="31dp"
                         android:ellipsize="end"
-
+                        android:fontFamily="@font/montserrat_medium"
                         android:maxLines="1"
-                        android:textColor="#ffffff"/>
+                        android:text="@string/por_la"
+
+                        android:textColor="#ffffff"
+                        app:layout_constraintStart_toEndOf="@id/textview_details"
+                        app:layout_constraintTop_toBottomOf="@id/textview2" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
             </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="21dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="@font/montserrat_alternates_semi_bold"
+                android:text="@string/de_nuevo"
+                android:textColor="#003087"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/card_view" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycle_view_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                app:layout_constraintTop_toBottomOf="@id/textview3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

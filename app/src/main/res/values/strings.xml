@@ -3,9 +3,12 @@
     <string name="trade_activity">Enviar</string>
     <string name="person_string" >Perfil</string>
     <string name="receive">Recibir</string>
-    <string name="today">Hoy</string>
-    <string name="nina_te_ha_enviado">Nina te ha enviado</string>
+    <string name="today">HOY</string>
+    <string name="nina_te_ha">Nina te ha enviado</string>
     <string name="ver_details">VER DETALLES</string>
     <string name="message">Mensaje</string>
     <string name="por_la">Por la cenaqqweqwewqewq</string>
+    <string name="_20_00">20,00€</string>
+    <string name="de_nuevo">Enviar de nuevo</string>
+    <string name="todo">TODO</string>
 </resources>

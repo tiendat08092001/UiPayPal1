@@ -8,7 +8,10 @@
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/border.xml" value="0.1255" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/border_button.xml" value="0.1255" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/border_radius_50dp.xml" value="0.1255" />
-        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/activity_main.xml" value="0.42531120331950206" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/font/montserrat_alternates_medium.xml" value="0.23076923076923078" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/font/montserrat_alternates_semibold.xml" value="0.23076923076923078" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/user_adapter.xml" value="0.5" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
       </map>
     </option>
