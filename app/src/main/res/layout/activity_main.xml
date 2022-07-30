@@ -13,7 +13,8 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:paddingBottom="120dp">
 
             <ImageView
                 android:id="@+id/user_image"
@@ -22,11 +23,11 @@
                 android:layout_marginStart="26dp"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/border_radius_50dp"
+                android:contentDescription="@string/todo"
                 android:src="@drawable/user_image1"
                 app:layout_constraintHorizontal_weight="1"
                 app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:contentDescription="@string/todo" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:layout_width="10dp"
@@ -57,10 +58,10 @@
                 android:layout_marginTop="24dp"
                 android:layout_marginEnd="26dp"
                 android:background="@android:color/transparent"
+                android:contentDescription="@string/todo"
                 android:src="@drawable/ic_setting"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:contentDescription="@string/todo" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/card_view"
@@ -203,10 +204,61 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
                 android:layout_marginEnd="24dp"
-                app:layout_constraintTop_toBottomOf="@id/textview3"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"/>
+                app:layout_constraintTop_toBottomOf="@id/textview3" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="34dp"
+                android:fontFamily="@font/montserrat_alternates_semi_bold"
+                android:text="@string/activity"
+                android:textColor="#003087"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/recycle_view_user" />
+
+            <TextView
+                android:id="@+id/textview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="34dp"
+                android:layout_marginEnd="21dp"
+                android:fontFamily="@font/montserrat_alternates_medium"
+                android:text="@string/see_all"
+                android:textColor="#025ed7"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/recycle_view_user" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_view1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="14dp"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="3dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/textview4">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycle_view_trade"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                app:layout_constraintTop_toBottomOf="@id/card_view1"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="5dp"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 

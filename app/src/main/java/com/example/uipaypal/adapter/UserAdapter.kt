@@ -40,8 +40,6 @@ class UserAdapter(private val onClick: (User) -> Unit) :
                 userImage.setImageResource(user.image)
             }
         }
-
-
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UserViewHolder {

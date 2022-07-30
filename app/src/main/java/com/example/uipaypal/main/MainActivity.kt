@@ -8,11 +8,18 @@ import com.example.uipaypal.adapter.UserAdapter
 import com.example.uipaypal.data.user.User
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.uipaypal.adapter.HistoryTradeAdapter
+import com.example.uipaypal.data.history_trade.HistoryTrade
 
 class MainActivity : AppCompatActivity() {
     private val userListViewModel by viewModels<UserListViewModel> {
         UserListViewModelFactory(this)
     }
+
+    private val historyTradeViewModel by viewModels<TradeViewModel> {
+        TradeViewModelFactory(this)
+    }
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,6 +39,25 @@ class MainActivity : AppCompatActivity() {
                 userAdapter.submitList(it as MutableList<User>)
             }
         }
+
+        //recycle view history trade
+        val linearLayoutManager1 =
+            LinearLayoutManager(this@MainActivity, LinearLayoutManager.VERTICAL, false)
+        val historyTradeAdapter =
+            HistoryTradeAdapter { historyTrade -> historyTradeAdapterOnClick(historyTrade) }
+        val historyTradeRecyclerView: RecyclerView = findViewById(R.id.recycle_view_trade)
+        historyTradeRecyclerView.adapter = historyTradeAdapter
+        historyTradeRecyclerView.layoutManager = linearLayoutManager1
+        historyTradeViewModel.historyTradeLiveData.observe(this) {
+            it?.let {
+                historyTradeAdapter.submitList(it as MutableList<HistoryTrade>)
+            }
+        }
+
+    }
+
+    private fun historyTradeAdapterOnClick(historyTrade: HistoryTrade) {
+
     }
 
 

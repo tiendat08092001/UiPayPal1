@@ -11,4 +11,6 @@
     <string name="_20_00">20,00€</string>
     <string name="de_nuevo">Enviar de nuevo</string>
     <string name="todo">TODO</string>
+    <string name="activity">Actividad</string>
+    <string name="see_all">Ver más movimientos</string>
 </resources>
