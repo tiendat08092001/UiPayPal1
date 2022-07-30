@@ -15,9 +15,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:fontFamily="@font/montserrat_medium"
         android:text="El corte inglés"
         android:textColor="#1b1b1b"
-        android:fontFamily="@font/montserrat_medium"
         android:textSize="12sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
