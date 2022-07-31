@@ -5,5 +5,6 @@ data class HistoryTrade(
     val nameUserTrade: String,
     val isAccept: Boolean,
     val isSent: Boolean,
-    val value: Int
+    val value: Int,
+    var final: Boolean
 )

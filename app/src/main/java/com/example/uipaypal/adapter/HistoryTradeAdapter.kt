@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
@@ -20,6 +21,7 @@ class HistoryTradeAdapter(private val onClick: (HistoryTrade) -> Unit) :
         private val isAcceptTextView: TextView = itemView.findViewById(R.id.is_accept)
         private val valueTrade: TextView = itemView.findViewById(R.id.trade_price)
         private var currentHistoryTrade: HistoryTrade? = null
+        private val layoutHistoryTrade = itemView.findViewById<ConstraintLayout>(R.id.layout_trade_adapter)
 
         init {
             itemView.setOnClickListener {
@@ -44,6 +46,10 @@ class HistoryTradeAdapter(private val onClick: (HistoryTrade) -> Unit) :
             } else {
                 valueTrade.text = "${historyTrade.value}€"
                 valueTrade.setTextColor(Color.parseColor("#00c55b"))
+            }
+
+            if (historyTrade.final) {
+                layoutHistoryTrade.background = null
             }
         }
     }
