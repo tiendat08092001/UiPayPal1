@@ -230,7 +230,7 @@
                 android:fontFamily="@font/montserrat_medium"
                 android:text="@string/see_all"
                 android:textColor="#025ed7"
-                android:textSize="14sp"
+                android:textSize="12sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/recycle_view_user" />
 
@@ -290,7 +290,7 @@
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="64dp"
         android:layout_height="64dp"
-
+        android:foreground="@drawable/background_fab_button"
         app:layout_anchor="@id/bottom_app_bar" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,5 +1,6 @@
 package com.example.uipaypal.main
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.RecyclerView
@@ -10,6 +11,7 @@ import androidx.activity.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.uipaypal.adapter.HistoryTradeAdapter
 import com.example.uipaypal.data.history_trade.HistoryTrade
+import com.example.uipaypal.review_and_submit.ReviewAndSubmitActivity
 
 class MainActivity : AppCompatActivity() {
     private val userListViewModel by viewModels<UserListViewModel> {
@@ -62,6 +64,7 @@ class MainActivity : AppCompatActivity() {
 
 
     private fun userAdapterOnClick(user: User) {
-
+        val intent = Intent(this@MainActivity, ReviewAndSubmitActivity::class.java)
+        startActivity(intent)
     }
 }

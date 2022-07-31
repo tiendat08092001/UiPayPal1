@@ -4,6 +4,11 @@
     <style name="Floating" parent="Widget.Design.FloatingActionButton">
         <!---rest of your style-->
         <item name="android:foreground">@drawable/background_fab_button</item>
+
     </style>
+
+    <style name="button_review_submit" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/background_button_review_submit</item>
+     </style>
 
 </resources>

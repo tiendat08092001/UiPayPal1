@@ -4,22 +4,23 @@
     <item>
         <shape android:shape="oval">
             <gradient
-                android:angle="110"
+                android:angle="90"
                 android:endColor="#003087"
                 android:startColor="#005ebc" />
 
             <size
-                android:width="56dp"
-                android:height="56dp" />
+                android:width="24dp"
+                android:height="24dp" />
         </shape>
 
     </item>
 
 
     <item
-        android:bottom="10dp"
+        android:bottom="15dp"
         android:drawable="@drawable/ic_down_returned_black_18_dp_copy"
-        android:left="10dp"
-        android:right="10dp"
-        android:top="10dp" />
+        android:left="15dp"
+        android:right="15dp"
+        android:top="15dp" />
 </layer-list>
+
