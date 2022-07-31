@@ -14,9 +14,12 @@
         android:theme="@style/Theme.UiPayPal"
         tools:targetApi="31">
         <activity
-            android:name=".review_and_submit.ReviewAndSubmitActivity"
-            android:parentActivityName=".main.MainActivity"
+            android:name=".cards.CardsActivity"
             android:exported="false" />
+        <activity
+            android:name=".review_and_submit.ReviewAndSubmitActivity"
+            android:exported="false"
+            android:parentActivityName=".main.MainActivity" />
         <activity
             android:name=".main.MainActivity"
             android:exported="true">

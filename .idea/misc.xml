@@ -3,19 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/action_bar_cards_activity.xml" value="0.1335" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/background_border_top_left_right.xml" value="0.14" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/background_button_review_submit.xml" value="0.1255" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/background_fab_button.xml" value="0.121" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/background_floating_button_add.xml" value="0.1335" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/background_gradiant.xml" value="0.12" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/background_green_radius.xml" value="0.1255" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/background_linear_gradiant.xml" value="0.1335" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/border.xml" value="0.1255" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/border_button.xml" value="0.1255" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/border_dasted_bottom.xml" value="0.16" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/border_radius_50dp.xml" value="0.1255" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/font/montserrat_alternates_medium.xml" value="0.23076923076923078" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/font/montserrat_alternates_semibold.xml" value="0.23076923076923078" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/action_bar_cards_activity.xml" value="0.203125" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/actionbar_review_and_submit.xml" value="0.5" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/activity_cards.xml" value="0.25" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/activity_review_and_submit.xml" value="0.44646464646464645" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/activity_review_and_submit.xml" value="0.25" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/card_list_adapter.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/carlist_adapter.xml" value="0.33" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/trade_adapter.xml" value="0.5" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/user_adapter.xml" value="0.5" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />

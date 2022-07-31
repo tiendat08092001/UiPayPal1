@@ -3,6 +3,7 @@ package com.example.uipaypal.main
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.uipaypal.R
 import com.example.uipaypal.adapter.UserAdapter
@@ -10,6 +11,7 @@ import com.example.uipaypal.data.user.User
 import androidx.activity.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.uipaypal.adapter.HistoryTradeAdapter
+import com.example.uipaypal.cards.CardsActivity
 import com.example.uipaypal.data.history_trade.HistoryTrade
 import com.example.uipaypal.review_and_submit.ReviewAndSubmitActivity
 
@@ -54,6 +56,14 @@ class MainActivity : AppCompatActivity() {
             it?.let {
                 historyTradeAdapter.submitList(it as MutableList<HistoryTrade>)
             }
+        }
+
+
+        //image user click
+        val imageUser: ImageView = findViewById(R.id.user_image)
+        imageUser.setOnClickListener{
+            val intent = Intent(this@MainActivity, CardsActivity::class.java)
+            startActivity(intent)
         }
 
     }

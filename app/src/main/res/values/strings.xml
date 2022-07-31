@@ -23,4 +23,8 @@
     <string name="_9898">****9898</string>
     <string name="transaction_fees">Tarifas por transacción</string>
     <string name="master_pay">Tú pagas</string>
+    <string name="bank_accounts_and_cards">Cuentas bancarias y tarjetas</string>
+    <string name="message_1">Mantenemos tus datos financieros protegidos para que nadie vea la información confidencial.</string>
+    <string name="myCards">Mis tarjetas</string>
+    <string name="mastercard">Mastercard</string>
 </resources>
