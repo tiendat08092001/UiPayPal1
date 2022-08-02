@@ -15,9 +15,10 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/layout_scroll"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingBottom="100dp">
+            android:paddingBottom="60dp">
 
             <LinearLayout
                 android:id="@+id/linear_layout_1"
@@ -100,6 +101,8 @@
                 android:layout_marginTop="17dp"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
 
+
+
     </ScrollView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -111,5 +114,7 @@
         android:layout_marginEnd="26dp"
         android:src="@drawable/ic_baseline_add_24"
         android:foreground="@drawable/background_floating_button_add"/>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

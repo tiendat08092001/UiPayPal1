@@ -13,14 +13,14 @@ fun cardsList(): List<Card> {
         Card(
             idCard = 2,
             imageCard = R.drawable.ic_visa_card,
-            categoryCard = "Mastercard",
-            codeCard = "****9889"
+            categoryCard = "Visa black",
+            codeCard = "****8764"
         ),
         Card(
             idCard = 3,
             imageCard = R.drawable.ic_visa_card,
-            categoryCard = "Mastercard",
-            codeCard = "****9889"
+            categoryCard = "Visa black",
+            codeCard = "****8764"
         ),
     )
 

@@ -13,6 +13,7 @@
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/background_linear_gradiant.xml" value="0.1335" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/border.xml" value="0.1255" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/border_button.xml" value="0.1255" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/border_card_list_adapter.xml" value="0.1335" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/border_dasted_bottom.xml" value="0.16" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/drawable/border_radius_50dp.xml" value="0.1255" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/font/montserrat_alternates_medium.xml" value="0.23076923076923078" />
@@ -23,7 +24,7 @@
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/activity_main.xml" value="0.2413793103448276" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/activity_review_and_submit.xml" value="0.25" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/card_list_adapter.xml" value="0.20416666666666666" />
-        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/carlist_adapter.xml" value="0.75" />
+        <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/carlist_adapter.xml" value="0.5" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/trade_adapter.xml" value="0.5" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/layout/user_adapter.xml" value="0.5" />
         <entry key="..\:/AndroidSaved/UiPayPal1/app/src/main/res/menu/bottom_nav_menu.xml" value="0.5" />
