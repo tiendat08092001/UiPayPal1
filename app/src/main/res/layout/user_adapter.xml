@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat_semibold"
         android:text="Carlos Roca"
-        android:textColor="#373737"
+        android:textColor="#504F4F"
         android:textSize="12sp"
         android:paddingTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
