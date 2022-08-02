@@ -12,6 +12,7 @@
         android:layout_height="49dp"
         android:background="@drawable/border_radius_50dp"
         android:src="@drawable/user_image1"
+        android:layout_marginTop="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,8 +23,9 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat_semibold"
         android:text="Carlos Roca"
-        android:textColor="#80000000"
+        android:textColor="#373737"
         android:textSize="12sp"
+        android:paddingTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recycle_user_image" />
